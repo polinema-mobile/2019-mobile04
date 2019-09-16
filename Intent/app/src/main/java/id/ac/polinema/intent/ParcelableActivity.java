@@ -35,7 +35,7 @@ public class ParcelableActivity extends AppCompatActivity {
 
         username = usernameInput.getText().toString();
         name = nameInput.getText().toString();
-//        age = Integer.parseInt(ageInput.getText().toString());
+        age = Integer.parseInt(ageInput.getText().toString());
 
         user = new User(username, name, age);
 

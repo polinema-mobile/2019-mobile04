@@ -31,13 +31,9 @@ public class ProfileParcelableActivity extends AppCompatActivity {
         if (extras != null) {
 
             // TODO: display value here
-            String username = parcel.getUsername();
-            String name = parcel.getName();
-//            int age = Integer.parseInt(ageText.getText().toString());
-
-            usernameText.setText(username);
-            nameText.setText(name);
-//            ageText.setText(String.valueOf(extras.getInt(age)));
+            usernameText.setText(parcel.getUsername());
+            nameText.setText(parcel.getName());
+            ageText.setText(String.valueOf(parcel.getAge()));
         }
     }
 }
